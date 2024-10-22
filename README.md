@@ -10,7 +10,7 @@ First, using a text embedding model, we cluster the questions into several clust
 
 **2.Mutil-stance forecasting:**
 
-Given a question, our agent retrieves multiple related agents from the agent collections. Then, each agent generates searching queries based on its own identity, retrieves news (using **Newscatcherapi** https://newscatcherapi.com/.) and videos from news websites and youtube, and makes forecasting based on the web information.
+Given a question, our agent retrieves multiple related agents from the agent collections. Then, each agent generates searching queries based on its own identity, retrieves news (using **Newscatcherapi** https://www.newscatcherapi.com/.) and videos from news websites and youtube, and makes forecasting based on the web information.
 
 **3.Stance aggregation:**
 We combine the analysis of multiple agents into several clusters based on their stances. Each cluster aggregate the analysis from multiple agents into a more comprehensive forecasting.
